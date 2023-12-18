@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Vampire Bat",
+        "attack": 2,
+        "health": 1,
+        "defense": 0,
+        "speed": 2,
+        "abilities": [
+            {
+                "trigger": "onAttack",
+                "name": "Lifesteal",
+                "description": "When this unit attacks, it restores health to another vampire unit equal to your current tier."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Werewolf Pup",
+        "attack": 1,
+        "health": 1,
+        "defense": 1,
+        "speed": 2,
+        "abilities": [
+            {
+                "trigger": "onTurnStart",
+                "name": "Lunar Transformation",
+                "description": "At the start of your turn, transform into a random Werewolf unit of your current tier."
+            }
+        ]
+    }
+]
